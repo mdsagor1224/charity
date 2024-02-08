@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    transition: all 0.3s easc-out 0s;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+/* header */
+.transparent-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.header-info-text span{
+    color: #99a39f;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display:block;
+    margin-bottom: 10px;
+}
+.header-info-text h4{
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.header-info-icon i{
+    color: #f87206;
+    font-size: 14px;
+}
+.header-info-icon{
+    margin-left: 15px;
+}
+.header-info ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.header-login a{
+    color: #cbd6e3;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.header-login a i{
+    margin-right: 3px;
+}
+
+.menu-box{
+    border: 2px solid #777781;
+    padding: 0 38px;
+}
+
+.f-btn{
+    background: #ec6e39;
+    color: #fff;
+    padding: 20px 30px;
+    line-height: 1;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+}
+.main-menu ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    display: inline-block;
+    padding: 30px 0;
+}
+.main-menu ul li:hover > a{
+    color: #ec6e39;
+}
+.main-menu ul li .submenu{
+    position: absolute;
+    background: #fff;
+    width: 230px;
+    padding: 15px 0;
+    border-top: 4px solid #ec6e39;
+    top: 140%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.main-menu ul li:hover > .submenu{
+    opacity: 1;
+    visibility: visible;
+    top: 120%;
+}
+.main-menu ul li .submenu li{
+    display: block;
+    margin: 0;
+}
+.main-menu ul li .submenu li a{
+    color: #111;
+    display: block;
+    padding: 10px 25px
+}
+
+.main-menu ul li .submenu li:hover > a{
+    color: #ec6e39;
+}
