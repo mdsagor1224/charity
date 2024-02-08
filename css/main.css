@@ -145,3 +145,40 @@ ul{
 .main-menu ul li .submenu li:hover > a{
     color: #ec6e39;
 }
+
+
+/* hero */
+.hero-area{
+    height: 1020px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-wrapper a{
+    background:#ec6e39;
+    color: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    line-height: 79px;
+    margin-bottom: 24px;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+}
+
+.hero-wrapper h2{
+    font-size: 80px;
+    color: #fff;
+}
+
+.back-text{
+    color: #fff;
+    opacity: .1;
+    font-size: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
